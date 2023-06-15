@@ -1,0 +1,26 @@
+{
+    "name": "liffe/compras",
+    "description": "Modulo Compras",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hayar Aliaga Gutierrez",
+            "email": "hayaralexaliagagutierrez@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Liffe\\Compras\\": "src"
+        }
+    },
+    "extra": {
+        "component": "package",
+        "laravel": {
+            "providers": [
+                "Liffe\\Compras\\App\\Providers\\ComprasServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
